@@ -22,7 +22,7 @@ export function match(template: string, check: string): boolean {
 										return false
 									}
 								}
-						}
+						} 
 				}
 			} else if (templateArr[i] !== '*') {
 				return false
